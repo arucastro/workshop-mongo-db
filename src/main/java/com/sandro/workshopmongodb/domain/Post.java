@@ -23,7 +23,7 @@ private static final long serialVersionUID = 1L;
 	private String body;
 	private AuthorDTO author;
 	
-	private List<CommentDTO> commments = new ArrayList<>();
+	private List<CommentDTO> comments = new ArrayList<>();
 
 	public Post() {
 	}
@@ -78,7 +78,7 @@ private static final long serialVersionUID = 1L;
 	}
 	
 	public List<CommentDTO> getCommments() {
-		return commments;
+		return comments;
 	}
 
 	@Override
